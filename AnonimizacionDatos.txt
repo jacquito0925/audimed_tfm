@@ -1,0 +1,93 @@
+SEDE                            int64 -->ok bORRAR
+TIPO_ATENCION                  object -->OK DATOS NUMERICOS
+df['TIPO_ATENCION']=df['TIPO_ATENCION'].replace('hosp_urge', 0)
+df['TIPO_ATENCION']=df['TIPO_ATENCION'].replace('ambulatorio', 1)
+ATENCION                        int64 -->NADA
+DETALLE_ATENCION               object -->REEMPLAZAR DATOS NUMERICOS
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('HOSP', 0)
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('URGE', 1)
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('LABO', 2)
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('CEXT', 3)
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('AYDX', 4)
+df['DETALLE_ATENCION']=df['DETALLE_ATENCION'].replace('AYRA', 5)
+CONS_PACIENTE                   int64 -->NADA
+INGRESO_PACIENTE                int64 -->NADA
+UBICACION_ATENCION             object
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHUR', 0)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHHD', 1)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHHT', 2)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHHC', 3)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHCI', 4)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHTS', 5)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHUC', 6)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHHQ', 7)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHUG', 8)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('CHCE', 9)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('JHEM', 10)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('UNIM', 11)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('JELE', 12)
+df['UBICACION_ATENCION']=df['UBICACION_ATENCION'].replace('URGE', 13) 
+HABITACION_ATENCION            object
+df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].replace({'J':''},regex=True)
+df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].fillna(0)
+df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].replace('UCN4', 1)
+ESPECIALIDAD_ATENCION          object
+MEDICO_ATENCION                object
+TIPO_RESPON_PAGO               object
+RESPONSABLE_PAGO                int32
+TARIFA_ATENCION                object
+TIPO_PACIENTE                  object
+SEXO_PACIENTE                  object
+FECHA_NACI_PACIENTE            object
+EDAD_INICIO_ATENCION            int64
+EDAD_EGRESO_ATENCION            int64
+FECHA_INGRESO_ATENCION         object
+FECHA_EGRESO_ATENCION          object
+MINUTOS_ESTANCIA                int64
+TIPO_AFILIADO                  object
+REGIMEN                        object
+TIPO_ADMINISTRADORA            object
+ADMINISTRADORA                 object
+CANT_ANTENCENDENTE_GRU_A01      int64
+CANT_ANTENCENDENTE_GRU_A02      int64
+CANT_ANTENCENDENTE_GRU_A03      int64
+CANT_ANTENCENDENTE_GRU_A04      int64
+CANT_ANTENCENDENTE_GRU_A06      int64
+CANT_ANTENCENDENTE_GRU_A07      int64
+CANT_ANTENCENDENTE_GRU_A08      int64
+CANT_ANTENCENDENTE_GRU_A09      int64
+CANT_ANTENCENDENTE_GRU_A11      int64
+CANT_ANTENCENDENTE_GRU_A12      int64
+CANT_ANTENCENDENTE_GRU_A13      int64
+CANT_ANTENCENDENTE_GRU_A14      int64
+CANT_ANTENCENDENTE_GRU_A20      int64
+CANT_ANTENCENDENTE_GRU_A23      int64
+CANT_ANTENCENDENTE_GRU_A24      int64
+CANT_ANTENCENDENTE_GRU_A25      int64
+DX_INGRESO                     object
+DX_PRINCIPAL                   object
+DX_EGRESO                      object
+DX_PREVIO                      object
+DX_POST                        object
+DX_RELACIONADO1                object
+DX_RELACIONADO2                object
+ESPECIALIDAD_1                 object
+ESPECIALIDAD_2                 object
+ESPECIALIDAD_3                 object
+ESPECIALIDAD_4                 object
+ESPECIALIDAD_5                 object
+ESPECIALIDAD_6                 object
+CONCEPTO_FACTURA_CARGO         object
+CODIGO_PRODUCTO_CARGO          object
+CCOSTO_CARGO                    int64
+TERCERO_CARGO                   int64
+FUENTE_FACTURA                 object
+NUMERO_FACTURA                  int64
+CANTIDAD_CARGO                  int64
+VALOR_TOTAL_CARGO               int64
+VALOR_FACTURADO_CARGO           int64
+CAUSA_RECLAMO                 float64
+VALOR_RECLAMADO               float64
+VALOR_ACEPTADO                  int64
+VALOR_FINAL_RECLAMADO           int64
+dtype: object
