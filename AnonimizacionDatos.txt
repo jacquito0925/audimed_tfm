@@ -32,6 +32,9 @@ df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].replace({'J':''},regex=True)
 df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].fillna(0)
 df['HABITACION_ATENCION']=df['HABITACION_ATENCION'].replace('UCN4', 1)
 ESPECIALIDAD_ATENCION          object
+df['ESPECIALIDAD_ATENCION']=df['ESPECIALIDAD_ATENCION'].replace('CON', 1)
+df['ESPECIALIDAD_ATENCION']=df['ESPECIALIDAD_ATENCION'].replace('ACL', 2)
+df['ESPECIALIDAD_5']=df['ESPECIALIDAD_5'].fillna(0)
 MEDICO_ATENCION                object
 TIPO_RESPON_PAGO               object
 RESPONSABLE_PAGO                int32
@@ -71,12 +74,12 @@ DX_PREVIO                      object
 DX_POST                        object
 DX_RELACIONADO1                object
 DX_RELACIONADO2                object
-ESPECIALIDAD_1                 object
-ESPECIALIDAD_2                 object
-ESPECIALIDAD_3                 object
-ESPECIALIDAD_4                 object
-ESPECIALIDAD_5                 object
-ESPECIALIDAD_6                 object
+#ESPECIALIDAD_1                 object --> ok
+#ESPECIALIDAD_2                 object --> ok
+#ESPECIALIDAD_3                 object --> ok
+#ESPECIALIDAD_4                 object --> ok
+#ESPECIALIDAD_5                 object --> ok
+#ESPECIALIDAD_6                 object --> ok
 CONCEPTO_FACTURA_CARGO         object
 CODIGO_PRODUCTO_CARGO          object
 CCOSTO_CARGO                    int64
