@@ -4,16 +4,26 @@ El desarrollo del proyecto se siguió usando la metodología de proyectos de min
 
 ## Tabla de contenido
 1. [Comprensión del negocio](#comprensión-del-negocio)
-2. [Comprensión de los datos](#comprension-datos)
-3. [Preparación de los datos](#preparacion-datos)
-4. [Modelos de datos](#modelos-datos)
-5. [Evaluación de los modelos](#evaluacion-modelos)
+2. [Comprensión de los datos](#comprension-de-los-datos)
+3. [Preparación de los datos](#preparacion-de-los-datos)
+4. [Modelos de datos](#modelos-de-datos)
+5. [Evaluación de los modelos](#evaluación-de-los-modelos)
 
 ### Comprensión del negocio
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
 ### Comprensión de los datos
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+### Preparación de los datos
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+### Modelos de datos
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+### Evaluación de los modelos
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
 ## Technologies
 ***
 A list of technologies used within the project:
