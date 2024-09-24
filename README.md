@@ -9,7 +9,7 @@ El desarrollo del proyecto se siguió usando la metodología de proyectos de min
 4. [Modelos de datos](#modelos-datos)
 5. [Evaluación de los modelos](#evaluacion-modelos)
 
-### Comprensión del negocio
+### [Comprensión del negocio](#comprension-negocio)
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
 ### Comprensión de los datos
